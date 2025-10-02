@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: payable 
+  pull-requests: payable 
 
 jobs:
   release:
