@@ -29,7 +29,7 @@
         }
       ],
       "name": "addOwnerWithThreshold",
-      "outputs": [0x3a08F47F7BDB60b57D7c9E29274e729176020319],
+      "outputs": [],
       "payable": true,
       "stateMutability": "payable",
       "type": "function"
