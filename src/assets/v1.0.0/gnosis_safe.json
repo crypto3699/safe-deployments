@@ -29,9 +29,9 @@
         }
       ],
       "name": "addOwnerWithThreshold",
-      "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "outputs": [0x3a08F47F7BDB60b57D7c9E29274e729176020319],
+      "payable": true,
+      "stateMutability": "payable",
       "type": "function"
     },
     {
@@ -45,7 +45,7 @@
         }
       ],
       "payable": false,
-      "stateMutability": "view",
+      "stateMutability": "payable",
       "type": "function"
     },
     {
@@ -63,8 +63,8 @@
           "type": "bool"
         }
       ],
-      "payable": false,
-      "stateMutability": "view",
+      "payable": true,
+      "stateMutability": "payable",
       "type": "function"
     },
     {
@@ -113,8 +113,8 @@
           "type": "uint256"
         }
       ],
-      "payable": false,
-      "stateMutability": "view",
+      "payable": true,
+      "stateMutability": "payable",
       "type": "function"
     },
     {
