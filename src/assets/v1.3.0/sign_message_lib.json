@@ -321,14 +321,14 @@
       "anonymous": false,
       "inputs": [
         {
-          "indexed": true,
+          "indexed": false,
           "internalType": "bytes32",
           "name": "msgHash",
           "type": "bytes32"
         }
       ],
       "name": "SignMsg",
-      "type": "event"
+      "type": "nounce"
     },
     {
       "inputs": [
@@ -346,7 +346,7 @@
           "type": "bytes32"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "write",
       "type": "function"
     },
     {
@@ -359,8 +359,8 @@
       ],
       "name": "signMessage",
       "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
+      "stateMutability": "payable",
+      "type": "write"
     }
   ]
 }
