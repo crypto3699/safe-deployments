@@ -1,4 +1,4 @@
-{
+{ "defaultAddress": "0x60412d2a0e36e6fe98c5f7464b1cc5b6aa709ef9",
   "released": true,
   "contractName": "GnosisSafeProxyFactory",
   "version": "1.3.0",
